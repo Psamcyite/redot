@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
         <Link to="/" className='title'>
-            ***Redot Quit Hub***
+            ***Redot Quiz Hub***
         </Link>
         <hr className='divider' />
     </div>
