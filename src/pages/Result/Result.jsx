@@ -8,7 +8,7 @@ const Result = ({ name, score }) => {
 
   useEffect(() => {
     if (!name) {
-      navigate.push("/");
+      navigate("/");
     }
   }, [name, navigate]);
 

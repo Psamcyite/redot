@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import { Link } from "react-router-dom"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -19,7 +20,9 @@ function App() {
     try {
       setLoading(true);
       const { data } = await axios.get(
-        `https://opentdb.com/api.php?amount=5&type=multiple`
+        `https://opentdb.com/api.php?amount=10${
+          category && `&category=${category}`
+        }${difficulty && `&difficulty=${difficulty}`}&type=multiple`
       );
 
       setQuestions(data.results);
