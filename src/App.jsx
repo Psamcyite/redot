@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom"
+import { Analytics } from '@vercel/analytics/react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -43,6 +44,7 @@ function App() {
           <Route path="/result" element={<Result name={name} score={score} />} />
         </Routes>
       </div>
+	<Analytics />
       <Footer />
     </Router>
   );
