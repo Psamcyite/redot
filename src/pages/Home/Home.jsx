@@ -1,6 +1,7 @@
 import { Button, MenuItem, TextField } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import Categories from "../../data/Categories";
 import "./Home.css";
@@ -75,6 +76,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
           >
             Start Quiz
           </Button>
+	  <Analytics />
         </div>
       </div>
       <img src="/quiz.svg" className="banner" alt="quiz app" />

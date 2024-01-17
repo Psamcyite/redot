@@ -44,8 +44,8 @@ function App() {
           <Route path="/result" element={<Result name={name} score={score} />} />
         </Routes>
       </div>
-	<Analytics />
       <Footer />
+      <Analytics />
     </Router>
   );
 }
