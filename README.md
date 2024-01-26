@@ -26,13 +26,13 @@ To get started with Redot, follow these simple steps:
 
    ```bash
    cd redot
-   yarn install
+   npm install
    ```
 
 3. Run the application:
 
    ```bash
-   yarn dev
+   npm run dev
    ```
 
 4. Visit `http://localhost:5173` in your web browser.
