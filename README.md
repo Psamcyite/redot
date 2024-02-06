@@ -12,6 +12,21 @@ Redot is an innovative educational platform designed to revolutionize the way we
 - **Progress Tracking:** Monitor and track individual and group progress to enhance the learning experience.
 - **User-Friendly Interface:** Intuitive design for a seamless learning experience.
 
+## Using the Trivia API
+
+Enhance the learning experience in Redot by incorporating trivia questions from the Trivia API. The Trivia API provides a vast collection of trivia questions across various categories and difficulty levels.
+
+To integrate trivia questions into your Redot project, follow these steps:
+
+1. **Obtain an API Key:** Sign up on the Trivia API website to receive an API key.
+
+2. **Authentication:** Use your API key to authenticate requests made to the Trivia API.
+
+3. **API Endpoint:** Utilize the Trivia API's endpoint to fetch trivia questions.
+
+4. **Integration:** Incorporate the retrieved trivia questions into your quizzes or educational content within Redot.
+
+
 ## Getting Started
 
 To get started with Redot, follow these simple steps:
