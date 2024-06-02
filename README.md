@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Redot is an innovative educational platform designed to revolutionize the way we learn and teach. Our mission is to create a collaborative and engaging environment for both educators and learners, fostering a culture of knowledge sharing and continuous improvement.
+Explore a variety of thought-provoking questions sourced from trivia experts. Test your intellect, boost your knowledge, and discover your potential with each engaging quiz.
 
 ## Features
 
